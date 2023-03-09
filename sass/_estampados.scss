@@ -1,0 +1,9 @@
+.estampados {
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin: 10rem;
+	&:hover {
+		transform: scale(2);
+	}
+}

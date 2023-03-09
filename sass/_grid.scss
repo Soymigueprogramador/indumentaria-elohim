@@ -1,0 +1,27 @@
+.container {
+	text-center {
+		display: grid;
+		grid-template-columns: repeat(auto auto auto);
+		grid-template-rows: repeat(auto auto auto);
+		word-spacing: 20px;
+		font-size: 20px;
+		background-color: $background-color_1;
+		color: $color_4;
+	}
+}
+.col {
+	border: 1px solid blue;
+	padding: 10px;
+	display: grid;
+	display: grid;
+	grid-template-rows: repeat(auto auto auto);
+	display: flex;
+	justify-content: center;
+	color: $color_4;
+}
+.grid-items {
+	border: 1px solid blue;
+	padding: 10px;
+	display: grid;
+	grid-template-rows: repeat(auto auto auto auto);
+}

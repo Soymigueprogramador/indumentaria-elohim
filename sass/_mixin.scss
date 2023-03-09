@@ -1,0 +1,6 @@
+@mixin “encabezado” () {
+Color:  red;
+}
+Header{
+	@include “encabezado” ();
+}
