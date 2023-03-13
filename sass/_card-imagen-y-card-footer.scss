@@ -20,6 +20,9 @@
 .imagen {
 	width: 20rem;
 	height: 20rem;
+	display: flex;
+	text-align: center;
+	justify-content: center;
 }
 .card-footer {
 	background-color: $background-color_2;
