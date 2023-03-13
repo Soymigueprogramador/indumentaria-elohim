@@ -65,8 +65,8 @@ p {
 }
 
 .imagen {
-  width: 30rem;
-  height: 30rem;
+  width: 20rem;
+  height: 20rem;
 }
 
 .card-footer {
@@ -205,6 +205,11 @@ h3 {
   margin-top: 20px;
 }
 
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 380px) {
   h1 {
     color: blue;
@@ -278,6 +283,14 @@ h3 {
     justify-content: center;
     color: red;
     padding: 75px;
+  }
+  .mapa {
+    width: 100%;
+    height: 10rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media screen and (max-width: 768px) {
@@ -353,6 +366,14 @@ h3 {
     justify-content: center;
     color: red;
     padding: 75px;
+  }
+  .mapa {
+    width: 100%;
+    height: 20rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -432,6 +453,22 @@ h3 {
     color: red;
     padding: 75px;
   }
+  .mapa {
+    width: 100%;
+    height: 30rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.mapa {
+  width: 100%;
+  height: 30rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
