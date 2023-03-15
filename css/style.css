@@ -209,14 +209,14 @@ h3 {
 }
 
 a {
-  list-style-type: none;
   text-decoration: none;
+  list-style-type: none;
 }
 
 @media screen and (max-width: 380px) {
   h1 {
     color: blue;
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
   }
   h2 {
@@ -281,7 +281,10 @@ a {
     margin-top: 20px;
   }
   a {
+    list-style-type: none;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
     color: #fff;
@@ -364,6 +367,7 @@ a {
     margin-top: 20px;
   }
   a {
+    list-style-type: none;
     text-decoration: none;
     text-align: center;
     justify-content: center;
@@ -450,6 +454,7 @@ a {
     margin-top: 20px;
   }
   a {
+    list-style-type: none;
     text-decoration: none;
     text-align: center;
     justify-content: center;
