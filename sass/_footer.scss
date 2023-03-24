@@ -1,6 +1,6 @@
 footer {
 	width: 100%;
-	height: 14vh;
+	height: 20vh;
 	display: inline-block;
 	text-align: center;
 	justify-content: center;
@@ -19,7 +19,10 @@ h3 {
 	color: $color_3;
 	margin-top: 20px;
 }
-a{
+ui, li, a{
 	text-decoration: none;
 	list-style-type: none;
+	display: inline-block;
+	flex-direction: column;
+	margin: 10px;
 }

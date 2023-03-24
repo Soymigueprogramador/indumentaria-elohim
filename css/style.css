@@ -88,7 +88,7 @@ p {
   word-spacing: 20px;
   font-size: 20px;
   background-color: black;
-  color: #fff;
+  color: red;
 }
 
 .col {
@@ -99,7 +99,7 @@ p {
   grid-template-rows: repeat(auto auto auto);
   display: flex;
   justify-content: center;
-  color: #fff;
+  color: red;
 }
 
 .grid-items {
@@ -187,7 +187,7 @@ p {
 
 footer {
   width: 100%;
-  height: 14vh;
+  height: 20vh;
   display: inline-block;
   text-align: center;
   justify-content: center;
@@ -208,9 +208,12 @@ h3 {
   margin-top: 20px;
 }
 
-a {
+ui, li, a {
   text-decoration: none;
   list-style-type: none;
+  display: inline-block;
+  flex-direction: column;
+  margin: 10px;
 }
 
 @media screen and (max-width: 380px) {
@@ -299,6 +302,14 @@ a {
     align-items: center;
   }
 }
+ui, li, a, footer {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  flex-direction: column;
+  margin: 10px;
+}
+
 @media screen and (max-width: 768px) {
   h1 {
     color: blue;
