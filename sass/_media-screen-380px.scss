@@ -1,12 +1,12 @@
 @media screen and (max-width: 380px) {
 	h1 {
 		color: $color_2;
-		font-size: 40px;
+		font-size: 50px;
 		text-align: center;
 	}
 	h2 {
 		color: $color_2;
-		font-size: 20px;
+		font-size: 25px;
 		text-align: center;
 	}
 	h5 {
@@ -18,7 +18,7 @@
 	}
 	p {
 		color: $color_3;
-		font-size: 17px;
+		font-size: 18px;
 		text-align: center;
 		justify-content: center;
 	}
@@ -89,5 +89,5 @@ ui, li, a, footer{
 	list-style-type: none;
 	display: inline-block;
 	flex-direction: column;
-	margin: 10px;
+	margin: 5px;
 }
